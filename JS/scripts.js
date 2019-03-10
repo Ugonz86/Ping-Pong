@@ -17,7 +17,6 @@ $(document).ready(function() {
     $("#menu").css('width', '0px');
     $(".info").fadeToggle();
   })
-
 });
 
 function pingPong(num) {
