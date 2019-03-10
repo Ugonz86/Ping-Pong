@@ -12,7 +12,11 @@ A website created with Atom, HTML, CSS and JavaScript where a user can submit a 
 ### Specs
 | Spec | Input | Output |
 | :-------------     | :------------- | :------------- |
+<<<<<<< HEAD
 | **Homepage** | User accesses localhost:User | Homepage with user input form |
+=======
+| **Homepage** | User accesses localhost:Current user | Homepage with user input form |
+>>>>>>> ac633b757bbaa7c89d03be8bad0bd9fc8ba28372
 | **Program Gathers User Input** | User input: "number divisible by 3" | Output: "ping" |
 | **Program Gathers User Input** | User input: "number divisible by 5" | Output: "pong" |
 | **Program Gathers User Input** | User input: "number divisible by 15" | Output: "pingpong" |
