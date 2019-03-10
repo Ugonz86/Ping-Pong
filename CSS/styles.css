@@ -1,0 +1,122 @@
+#result {
+  display:none;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+  text-align: center;
+  font-size: 400%;
+}
+
+.container {
+  background-color: #ff6600;
+  margin-left: 248px;
+  padding-left: 90px;
+  border-radius: 4px 4px 4px 4px;
+}
+
+.info{
+  display: none;
+  font-weight: lighter;
+  font-size: 11px;
+  text-align: left;
+  margin-left: 22px;
+}
+
+.info2 {
+  color: #ff6600;
+}
+
+.info1 {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#About {
+  text-decoration: none;
+}
+
+#mySidenav a {
+
+  position: absolute;
+  left: -60px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 200px;
+  background-color: black;
+  float: left;
+  text-align: center;
+  color: white;
+  border-radius: 0 4px 4px 0;
+
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.1s;
+  padding-top: 60px;
+
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #ff6600;
+}
+
+.btn {
+
+    border-radius: 4px;
+    background-color: black;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+    width: 180px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .btn:hover span {
+    padding-right: 25px;
+  }
+
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
