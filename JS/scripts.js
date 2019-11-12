@@ -4,7 +4,7 @@ $(document).ready(function() {
     event.preventDefault();
     var myInput = parseInt($('#userInput').val());
     var pingPongResult = pingPong (myInput);
-    $("#result").show();
+    $("#result").slideDown();
   })
 
   $("#About").click(function(event) {
